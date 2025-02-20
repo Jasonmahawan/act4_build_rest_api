@@ -19,7 +19,7 @@ userRouter.get("/users", async (req : Request, res : Response) => {
     }
 })
 
-userRouter.get("/user/:id", async (req : Request, res : Response) => {
+userRouter.get("/users/:id", async (req : Request, res : Response) => {
     try {
         const user : UnitUser = await database.findOne(req.params.id)
 
@@ -84,7 +84,7 @@ userRouter.post("/login", async (req : Request, res : Response) => {
 })
 
 
-userRouter.put('/user/:id', async (req : Request, res : Response) => {
+userRouter.put('/users/:id', async (req : Request, res : Response) => {
 
     try {
 
@@ -109,7 +109,7 @@ userRouter.put('/user/:id', async (req : Request, res : Response) => {
     }
 })
 
-userRouter.delete("/user/:id", async (req : Request, res : Response) => {
+userRouter.delete("/users/:id", async (req : Request, res : Response) => {
     try {
         const id = (req.params.id)
 

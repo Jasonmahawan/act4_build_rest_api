@@ -50,7 +50,7 @@ export const create = async (userData: UnitUser): Promise<UnitUser | null> => {
         password: hashedPassword
     };
 
-    user[id] = user;
+    users[id] = user;
 
     saveUsers()
 

@@ -1,0 +1,1 @@
+{"root":["./src/app.ts","./src/products/product.database.ts","./src/products/product.interface.ts","./src/products/product.routes.ts","./src/users/user.database.ts","./src/users/user.interface.ts","./src/users/users.routes.ts"],"errors":true,"version":"5.7.3"}
